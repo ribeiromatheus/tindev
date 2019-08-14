@@ -1,2 +1,2 @@
-# tindev
-Relationship app for github developers
+# Tindev
+Relationship web app and mobile app for developers.
