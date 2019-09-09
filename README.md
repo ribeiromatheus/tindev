@@ -12,4 +12,4 @@ Relationship web app and mobile app for developers using Github API.
 - Python 2
 
 ## Get started
-After cloning run `npm install`.
+After cloning run `npm install`
