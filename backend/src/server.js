@@ -1,8 +1,9 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./routes');
-const mongooseCredentials = require('../credentials/mongoose');
 
 const app = express();
 const server = require('http').Server(app);
@@ -15,8 +16,9 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id;
 });
 
-mongoose.connect(`mongodb+srv://${mongooseCredentials.username}:${mongooseCredentials.password}@cluster0-do2no.mongodb.net/tindev?retryWrites=true&w=majority`, {
-    useNewUrlParser: true
+mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
 });
 
 app.use((req, res, next) => {
