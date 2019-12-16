@@ -11,6 +11,7 @@ Relationship web app and mobile app for developers by using Github API.
 - [axios](https://github.com/axios/axios)
 - [socket.io](https://github.com/socketio/socket.io)
 - [socket.io-client](https://github.com/socketio/socket.io-client)
+- [MongoDB (mongoose)](https://github.com/Automattic/mongoose)
 
 ## Requirements
 - [Node.js](https://nodejs.org)
