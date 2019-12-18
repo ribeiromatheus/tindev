@@ -19,6 +19,6 @@ Relationship web app and mobile app for developers by using Github API.
 - Python 2
 
 ## Get started
-At first, clone the repo by running git clone https://github.com/ribeiromatheus/tindev.git on your favorite terminal.
+At first, clone the repo by running `git clone https://github.com/ribeiromatheus/tindev.git` on your favorite terminal.
 
-After cloning run npm install or yarn install on backend and frontend folder.
+After cloning run `npm install` or `yarn install` on **backend**, **frontend** and **tindevmobile** folder.
