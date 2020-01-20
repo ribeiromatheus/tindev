@@ -1,7 +1,7 @@
 # Tindev
 Relationship web app and mobile app for developers by using Github API.
 
-## Tecnologies
+## Technologies
 - Node.js
 - React
 - React Native (see docs [here](https://facebook.github.io/react-native/docs/getting-started))
